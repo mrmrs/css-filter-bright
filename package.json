@@ -6,8 +6,7 @@
   "keywords": [
     "css",
     "oocss",
-    "",
-    ""
+    "filter-bright"
   ],
   "css-filter-bright": {
     "type": "git",
