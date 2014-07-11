@@ -25,7 +25,7 @@ or download the css on github and include in your project.
 .bright-4 { filter: brightness(1); }
 .bright-5 { filter: brightness(2); }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .bright-1-ns { filter: brightness(0.25); }
   .bright-2-ns { filter: brightness(0.5); }
   .bright-3-ns { filter: brightness(.75); }
@@ -33,7 +33,7 @@ or download the css on github and include in your project.
   .bright-5-ns { filter: brightness(2); }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .bright-1-m { filter: brightness(0.25); }
   .bright-2-m { filter: brightness(0.5); }
   .bright-3-m { filter: brightness(.75); }
@@ -41,7 +41,7 @@ or download the css on github and include in your project.
   .bright-5-m { filter: brightness(2); }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .bright-1-l { filter: brightness(0.25); }
   .bright-2-l { filter: brightness(0.5); }
   .bright-3-l { filter: brightness(.75); }
