@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-filter-bright)
 ## File Size
 
 1.0K filter-bright.css
-821B filter-bright.min.css
+821B filter-bright.min.css 
+191B minified and gzipped
 
 ## The Code
 ```
