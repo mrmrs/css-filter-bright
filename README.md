@@ -1,89 +1,106 @@
-# CSS FILTER BRIGHT
+# css-filter-bright 0.0.7
 
-  Mobile-first classes for css-filter-bright.
-  Set the desired css-filter-bright on any element for any breakpoint.
-  Base class names are namespaced across three breakpoints:
+Css module of single purpose classes for filter bright
 
-*  -ns = not-small (covers everything larger than mobile)
-*  -m  = medium
-*  -l  = large
+#### Stats
 
-## Install
-Grab the css partial from github and include it in your project or alternatively
-you can install it via npm:
+223 | 20 | 20
+---|---|---
+bytes | selectors | declarations
+
+## Installation
+
+#### With [npm](https://npmjs.com)
+
 ```
 npm install --save-dev css-filter-bright
 ```
-View on [npm](https://www.npmjs.org/package/css-filter-bright)
 
+#### With Git
 
-## File Size
-
-1.0K filter-bright.css
-821B filter-bright.min.css
-191B minified and gzipped
-
-## The Code
 ```
-.bright-1 { filter: brightness(0.25); }
-.bright-2 { filter: brightness(0.5); }
-.bright-3 { filter: brightness(.75); }
-.bright-4 { filter: brightness(1); }
-.bright-5 { filter: brightness(2); }
+git clone https://github.com/tachyons-css/css-filter-bright
+```
 
+## Usage
+
+#### Using with [PostCSS](https://github.com/postcss/postcss)
+
+Import the css module
+
+```css
+@import "css-filter-bright";
+```
+
+Then process the CSS using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
+
+```sh
+$ npm i -g tachyons-cli
+$ tachyons-cli path/to/css-file.css > dist/t.css
+```
+
+#### Using the CSS
+
+The built CSS is located in the `css` directory. It contains an unminified and minified version.
+You can either cut and paste that css or link to it directly in your html.
+
+```html
+<link rel="stylesheet" href="path/to/module/css/css-filter-bright">
+```
+
+#### Development
+
+The source CSS files can be found in the `src` directory.
+Running `$ npm start` will process the source CSS and place the built CSS in the `css` directory.
+
+## The CSS
+
+```css
+/*
+   FILTER BRIGHT
+*/
+.bright-1 { filter: brightness( 0.25 ); }
+.bright-2 { filter: brightness( 0.5 ); }
+.bright-3 { filter: brightness( .75 ); }
+.bright-4 { filter: brightness( 1 ); }
+.bright-5 { filter: brightness( 2 ); }
 @media screen and (min-width: 48em) {
-  .bright-1-ns { filter: brightness(0.25); }
-  .bright-2-ns { filter: brightness(0.5); }
-  .bright-3-ns { filter: brightness(.75); }
-  .bright-4-ns { filter: brightness(1); }
-  .bright-5-ns { filter: brightness(2); }
+ .bright-1-ns { filter: brightness( 0.25 ); }
+ .bright-2-ns { filter: brightness( 0.5 ); }
+ .bright-3-ns { filter: brightness( .75 ); }
+ .bright-4-ns { filter: brightness( 1 ); }
+ .bright-5-ns { filter: brightness( 2 ); }
 }
-
-@media screen and (min-width: 48em) and (max-width: 64em) {
-  .bright-1-m { filter: brightness(0.25); }
-  .bright-2-m { filter: brightness(0.5); }
-  .bright-3-m { filter: brightness(.75); }
-  .bright-4-m { filter: brightness(1); }
-  .bright-5-m { filter: brightness(2); }
+@media screen and (min-width:48em) and (max-width: 64em) {
+ .bright-1-m { filter: brightness( 0.25 ); }
+ .bright-2-m { filter: brightness( 0.5 ); }
+ .bright-3-m { filter: brightness( .75 ); }
+ .bright-4-m { filter: brightness( 1 ); }
+ .bright-5-m { filter: brightness( 2 ); }
 }
-
-@media screen and (min-width: 64em)  {
-  .bright-1-l { filter: brightness(0.25); }
-  .bright-2-l { filter: brightness(0.5); }
-  .bright-3-l { filter: brightness(.75); }
-  .bright-4-l { filter: brightness(1); }
-  .bright-5-l { filter: brightness(2); }
+@media screen and (min-width: 64em) {
+ .bright-1-l { filter: brightness( 0.25 ); }
+ .bright-2-l { filter: brightness( 0.5 ); }
+ .bright-3-l { filter: brightness( .75 ); }
+ .bright-4-l { filter: brightness( 1 ); }
+ .bright-5-l { filter: brightness( 2 ); }
 }
-
-
 ```
 
-## Author
+## Contributing
 
-[http://mrmrs.cc - Entire internet gateway to all things mrmrs](http://mrmrs.cc)
-[http://mrmrs.io - Open source projects](http://mrmrs.io)
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
+
+## Authors
+
+* [mrmrs](http://mrmrs.io)
+* [johno](http://johnotander.com)
 
 ## License
 
-The MIT License (MIT)
-
-Copyright (c) 2015 @mrmrs
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
+MIT
 
