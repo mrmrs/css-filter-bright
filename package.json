@@ -30,7 +30,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "tachyons-cli": "^1.0.8"
+    "tachyons-cli": "^1.3.0"
   },
   "scripts": {
     "start": "tachyons src/css-filter-bright.css > css/css-filter-bright.css && tachyons src/css-filter-bright.css --minify > css/css-filter-bright.min.css && tachyons src/css-filter-bright.css --generate-docs --package=../../package.json > readme.md"
