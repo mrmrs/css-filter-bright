@@ -1,7 +1,7 @@
 {
   "name": "css-filter-bright",
   "style": "filter-bright.css",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "homepage": "http://github.com/mrmrs/css-filter-bright",
   "description": "Css module of single purpose classes for filter bright",
   "keywords": [
