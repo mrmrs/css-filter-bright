@@ -9,11 +9,11 @@
 .bright-5 { filter: brightness(2); }
 
 @media screen and (min-width: 48em) {
-  .bright-1-ns { filter: brightness(0.25); }
-  .bright-2-ns { filter: brightness(0.5); }
-  .bright-3-ns { filter: brightness(.75); }
-  .bright-4-ns { filter: brightness(1); }
-  .bright-5-ns { filter: brightness(2); }
+  .bright-1-s { filter: brightness(0.25); }
+  .bright-2-s { filter: brightness(0.5); }
+  .bright-3-s { filter: brightness(.75); }
+  .bright-4-s { filter: brightness(1); }
+  .bright-5-s { filter: brightness(2); }
 }
 
 @media screen and (min-width:48em) and (max-width: 64em) {
