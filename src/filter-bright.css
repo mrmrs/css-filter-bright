@@ -8,7 +8,7 @@
 .bright-4 { filter: brightness(1); }
 .bright-5 { filter: brightness(2); }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 32em) {
   .bright-1-s { filter: brightness(0.25); }
   .bright-2-s { filter: brightness(0.5); }
   .bright-3-s { filter: brightness(.75); }
@@ -16,7 +16,7 @@
   .bright-5-s { filter: brightness(2); }
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
+@media screen and (min-width:48em) {
   .bright-1-m { filter: brightness(0.25); }
   .bright-2-m { filter: brightness(0.5); }
   .bright-3-m { filter: brightness(.75); }
@@ -24,7 +24,7 @@
   .bright-5-m { filter: brightness(2); }
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 96em) {
   .bright-1-l { filter: brightness(0.25); }
   .bright-2-l { filter: brightness(0.5); }
   .bright-3-l { filter: brightness(.75); }
