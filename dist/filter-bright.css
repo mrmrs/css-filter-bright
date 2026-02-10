@@ -1,85 +1,85 @@
-.bright-1 {
+.bright1 {
   filter: brightness(.25);
 }
 
-.bright-2 {
+.bright2 {
   filter: brightness(.5);
 }
 
-.bright-3 {
+.bright3 {
   filter: brightness(.75);
 }
 
-.bright-4 {
+.bright4 {
   filter: brightness();
 }
 
-.bright-5 {
+.bright5 {
   filter: brightness(2);
 }
 
 @media screen and (width >= 32em) {
-  .bright-1-s {
+  .bright1-s {
     filter: brightness(.25);
   }
 
-  .bright-2-s {
+  .bright2-s {
     filter: brightness(.5);
   }
 
-  .bright-3-s {
+  .bright3-s {
     filter: brightness(.75);
   }
 
-  .bright-4-s {
+  .bright4-s {
     filter: brightness();
   }
 
-  .bright-5-s {
+  .bright5-s {
     filter: brightness(2);
   }
 }
 
 @media screen and (width >= 48em) {
-  .bright-1-m {
+  .bright1-m {
     filter: brightness(.25);
   }
 
-  .bright-2-m {
+  .bright2-m {
     filter: brightness(.5);
   }
 
-  .bright-3-m {
+  .bright3-m {
     filter: brightness(.75);
   }
 
-  .bright-4-m {
+  .bright4-m {
     filter: brightness();
   }
 
-  .bright-5-m {
+  .bright5-m {
     filter: brightness(2);
   }
 }
 
 @media screen and (width >= 96em) {
-  .bright-1-l {
+  .bright1-l {
     filter: brightness(.25);
   }
 
-  .bright-2-l {
+  .bright2-l {
     filter: brightness(.5);
   }
 
-  .bright-3-l {
+  .bright3-l {
     filter: brightness(.75);
   }
 
-  .bright-4-l {
+  .bright4-l {
     filter: brightness();
   }
 
-  .bright-5-l {
+  .bright5-l {
     filter: brightness(2);
   }
 }
